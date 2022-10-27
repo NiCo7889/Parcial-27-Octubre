@@ -12,3 +12,6 @@ for num in range(0,7):
     if num%10==0 and num<200:
         num1=input("Introduce un numero:")
         print(f"Este numero {num1} es múltiplo de 10 y menor que 200 ")
+    elif num>300:
+        print("Fin programa. ")
+
